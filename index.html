@@ -9,101 +9,59 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="login.css" />
 </head>
 
 <body>
- 
-<!--   
-        <div class="container-fluid vh-100 cont" style="background-color: yellow" >
-            <div class="row ">
-                <div class="col-md-4 col-sm-8 form-div shadow ">
-                    <h1 class="text-center">Login</h1>
-                    <form id="todo" action="">
-                        <label for="" class="form-label">Email</label>
-                        <input type="text" placeholder="Enter email address" id="email"
-                            class="form-control shadow-sm mb-1" />
-                        <label for="" class="form-label">Password</label>
-                        <input type="password" name="" id="password" class="form-control shadow-sm mb-3"
-                            placeholder="Enter password" />
-                        <div class="d-grid">
-                            <button class="btn btn-primary mb-4" id="submit" onclick="login(redirect)">
-                                Login
-                            </button>
+    <section class="vh-100 main-sec">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-10 col-md-8 col-lg-8 col-xl-5">
+                    <div class="card" style="border-radius: 1rem;">
+                        <div class="row  main shadow-lg">
+
+                            <div class="col-md-12 col-lg-12 d-flex align-items-center">
+                                <div class="card-body p-4 p-lg-5 text-black">
+
+                                    <form id="todo" action="">
+                                        <h1>To Do List</h1>
+                                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Login to your
+                                            account</h5>
+                                        <div class="form-outline mb-4  fw-bold shadow">
+                                            <label>Email </label>
+                                            <input type="text" id="email" class="form-control form-control-lg"
+                                                placeholder="enter your email" />
+
+                                        </div>
+
+                                        <div class="form-outline mb-4 fw-bold shadow">
+                                            <label>Password</label>
+                                            <input type="password" id="password" class="form-control form-control-lg"
+                                                placeholder="enter password" />
+
+                                        </div>
+                                        <div class="d-grid">
+                                            <button class="btn btn-primary mb-4" id="submit"
+                                                onclick="login(redirect)">Login</button>
+                                        </div>
+                                        <br>
+
+                                        <p class=" pb-lg-3 text-center">Login and create your own to do list!</p>
+
+                                    </form>
+
+                                </div>
+                            </div>
                         </div>
-                        <a href="" class="small text-muted">forgot password?</a>
-                        <p class="mb-5">
-                            Don't have a To-Do List account?
-                            <a href="" class="text-dark"> SignUp</a>
-                        </p>
-                    </form>
-                    <img src="images/img.png" alt="" class="img" />
-                </div>
-
-     
-        
-                <div class="col-md-3 col-sm-2 text-center to-do-div shadow " >
-                   
-                        <div class="text-dark shadow todo-head">
-                        <h1 class="shadow">TODO</h1>
-                        <h1>LIST</h1>
-                
                     </div>
-                    
                 </div>
-
-
-
             </div>
-        </div> -->
-
-
-
-        <section class="vh-100 main-sec" >
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-10 col-md-8 col-lg-8 col-xl-5">
-        <div class="card" style="border-radius: 1rem;">
-          <div class="row  main shadow-lg">
-           
-            <div class="col-md-12 col-lg-12 d-flex align-items-center">
-              <div class="card-body p-4 p-lg-5 text-black">
-
-                 <form id="todo" action="">
-                  <h1>To Do List</h1>
-                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Login to your account</h5>
-                  <div class="form-outline mb-4  fw-bold shadow">
-                       <label >Email </label>
-                    <input type="text" id="email" class="form-control form-control-lg"  placeholder="enter your email" />
-                   
-                  </div>
-
-                  <div class="form-outline mb-4 fw-bold shadow">
-                              <label>Password</label>
-                    <input type="password" id="password" class="form-control form-control-lg" placeholder="enter password" />
-            
-                  </div>
-                       <div class="d-grid">
-                      <button class="btn btn-primary mb-4" id="submit" onclick="login(redirect)">Login</button>
-                   </div>
-                    <br>
-                    
-                  <p class=" pb-lg-3 text-center" >Login and create your own to do list!</p>
-                        
-                    </form>
-
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <script src="todoList.js"></script>
 </body>
