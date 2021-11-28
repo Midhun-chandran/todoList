@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <section class="bgSection">
+        <!-- form start -->
+        <div class="container-fluid rounded" style="background-color: yellow">
+            <div class="row">
+                <div class="col-md-4 col-sm-8 form-div shadow vh-100" style="background-image: url(images/notepad.png)">
+                    <h1 class="text-center">Login</h1>
+                    <form id="todo" action="">
+                        <label for="" class="form-label">Email</label>
+                        <input type="text" placeholder="Enter email address" id="email"
+                            class="form-control shadow-sm mb-1" />
+                        <label for="" class="form-label">Password</label>
+                        <input type="password" name="" id="password" class="form-control shadow-sm mb-3"
+                            placeholder="Enter password" />
+                        <div class="d-grid">
+                            <button class="btn btn-primary mb-4" id="submit" onclick="login(redirect)">
+                                Login
+                            </button>
+                        </div>
+                        <a href="" class="small text-muted">forgot password?</a>
+                        <p class="mb-5">
+                            Don't have a To-Do List account?
+                            <a href="" class="text-dark"> SignUp</a>
+                        </p>
+                    </form>
+                    <img src="images/img.png" alt="" class="img" />
+                </div>
+
+               <!-- form end -->
+               <!-- logo start-->
+
+                <div class="col-md-3 col-sm-2 text-center to-do-div shadow"
+                    style="background-image: url(images/pen.png); background-repeat: no-repeat">
+                    <div class="text-dark shadow todo-head">
+                        <h1 class="shadow">TODO</h1>
+                        <h1>LIST</h1>
+                    </div>
+                </div>
+
+               <!-- logo end  -->
+
+            </div>
+        </div>
+    </section>
+    <script src="todoList.js"></script>
+</body>
+
+</html>

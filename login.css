@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-div {
+
+    padding-top: 8%;
+    margin-top: 3%;
+    margin-left: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.form-div h1 {
+    font-family: fantasy;
+
+}
+
+.form-div input {
+    border: none;
+
+}
+
+.form-div input:focus {
+    background-color: yellow;
+}
+
+.form-div a {
+    text-decoration: none;
+}
+
+.to-do-div {
+    position: relative;
+    left: 7%;
+    font-family: fantasy;
+
+}
+
+.to-do-div h1 {
+    position: relative;
+    font-family: 'Pacifico',
+        cursive;
+}
+
+.todo-head {
+    margin-top: 15rem;
+    padding-left: 4rem;
+
+}
+
+.img {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .to-do-div {
+        display: none;
+    }
+
+    .form-div {
+
+        margin: 10%;
+        max-width: 80%;
+        height: 30%;
+
+    }
+
+    .form-div h1 {
+        font-family: fantasy;
+
+        margin-top: 8%;
+    }
+
+    .img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width:991px) {
+
+    .todo-head {
+        margin-top: 3rem;
+
+    }
+}

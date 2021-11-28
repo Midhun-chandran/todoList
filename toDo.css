@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#8bb6c7;
+}
+
+
+/* ul {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+} */
+
+
+.heading {
+    padding-left: 24%;
+
+}
+
+.list {
+    padding-left: 8%;
+    margin-left: 23%;
+}
+
+@media only screen and (max-width: 767px){
+    .cont-div{
+        margin-left: -11%;
+    }
+}
