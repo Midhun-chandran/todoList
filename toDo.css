@@ -5,12 +5,6 @@ body {
 }
 
 
-/* ul {
-    font-family: 'Indie Flower', cursive;
-    color: white;
-} */
-
-
 .heading {
     padding-left: 24%;
 
@@ -22,7 +16,8 @@ body {
 }
 
 @media only screen and (max-width: 767px){
-    .cont-div{
-        margin-left: -11%;
+ .list {
+        margin-left: 2%;
+      padding-left: 20%;
     }
 }

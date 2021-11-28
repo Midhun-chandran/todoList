@@ -28,7 +28,7 @@ function myFunction() {
         if (this.readyState == 4 && this.status == 200) {
 
             var response = JSON.parse(this.responseText);
-            var ulList = `<ul class="list-group ml-3 ">`
+            var ulList = `<ul class="list-group ">`
             for (i = 0; i < response.length; i++) {
                 if (response[i].completed === true) {
 
